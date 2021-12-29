@@ -1,0 +1,36 @@
+@font-face {
+    font-family: PFTempestaSeven;
+    src: url("../assets/fonts/pf_tempesta_seven.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: PFTempestaSeven;
+    src: url("../assets/fonts/pf_tempesta_seven_bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+  background-color: black;
+}
+h1 {
+  color: yellow;
+  font-family: PFTempestaSeven, monospace;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+p {
+  color: white;
+  font-family: PFTempestaSeven, monospace;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
