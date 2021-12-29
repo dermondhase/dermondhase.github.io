@@ -3,8 +3,6 @@ Hello, my name is Andrea "Jens" Demetrio, a fighting game developer known for
 [Schwarzerblitz](https://store.steampowered.com/app/1287800/Schwarzerblitz/) and [Motionsickness](https://gamejolt.com/games/motionsickness/601247).
 This is my business account for contract work and projects unrelated to the above two games.
 
-Now [live](https://dermondhase.github.io/), thanks to GitHub pages!
-
 # My services
 I offer two services as a contractor: fighting game story-writing and fighting game moveset design
 
