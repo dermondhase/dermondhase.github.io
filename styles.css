@@ -58,6 +58,8 @@ a:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 80%; /* 646 */
+  height: 190;
 }
 
 .footerfontstyle {
@@ -97,8 +99,8 @@ a:active {
   font-weight: normal;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
+  text-decoration: none;
 }
 
 .topnav a:hover {
@@ -108,4 +110,40 @@ a:active {
 .topnav a.active {
   background-color: #333;
   font-weight: bold;
+}
+
+/* For Mobile */
+@media screen and (max-width: 960px) {
+    .container {
+	  margin-top: 30px;
+	  display: flex;
+	  flex-direction: column;
+	  min-height: 100vh;
+	  margin-left: 5%;
+	  margin-right: 5%;
+	}
+	.center {
+	  margin-top: 64px;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 640;
+	}
+	.topnav a {
+	  font-family: PFTempestaSeven, monospace;
+	  float: left;
+	  color: white;
+	  font-weight: normal;
+	  text-align: center;
+	  padding: 20px 24px;
+	  font-size: 24px;
+	  text-decoration: none;
+	}
+	.centeriframe {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	  height: 190;
+	}
 }
