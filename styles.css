@@ -1,17 +1,3 @@
-@font-face {
-    font-family: PFTempestaSeven;
-    src: url("../assets/fonts/pf_tempesta_seven.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: PFTempestaSeven;
-    src: url("../assets/fonts/pf_tempesta_seven_bold.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
 main {
   flex: 1;
 }
@@ -33,25 +19,21 @@ p {
   font-family: PFTempestaSeven, monospace;
 }
 
-/* unvisited link */
 a:link {
   color: white;
   font-weight: bold;
 }
 
-/* visited link */
 a:visited {
   color: white;
   font-weight: bold;
 }
 
-/* mouse over link */
 a:hover {
   color: yellow;
   font-weight: bold;
 }
 
-/* selected link */
 a:active {
   color: yellow;
   font-weight: bold;
@@ -100,7 +82,6 @@ a:active {
     min-height: calc(100vh - 40px);
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
   background-color: black;
   overflow: hidden;
@@ -109,7 +90,6 @@ a:active {
   top:0
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   font-family: PFTempestaSeven, monospace;
   float: left;
@@ -121,15 +101,11 @@ a:active {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  /* background-color: #ddd; */
   color: yellow;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #333;
-  /* color: yellow; */
   font-weight: bold;
 }
