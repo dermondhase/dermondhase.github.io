@@ -22,21 +22,60 @@ body {
 h1 {
   color: yellow;
   font-family: PFTempestaSeven, monospace;
-  margin-left: 20%;
-  margin-right: 20%;
+}
+
+h2 {
+  color: yellow;
+  font-family: PFTempestaSeven, monospace;
 }
 p {
   color: white;
   font-family: PFTempestaSeven, monospace;
-  margin-left: 20%;
-  margin-right: 20%;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+  font-weight: bold;
 }
 
 .center {
+  margin-top: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 640;
+}
+
+.centerservices {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.centeriframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footerfontstyle {
@@ -49,7 +88,48 @@ p {
 }
 
 .container {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.allButFooter {
+    min-height: calc(100vh - 40px);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  position:fixed;
+  width: 100%;
+  top:0
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: PFTempestaSeven, monospace;
+  float: left;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  /* background-color: #ddd; */
+  color: yellow;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #333;
+  /* color: yellow; */
+  font-weight: bold;
 }
