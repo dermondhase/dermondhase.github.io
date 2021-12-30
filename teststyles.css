@@ -1,0 +1,135 @@
+main {
+  flex: 1;
+}
+
+body {
+  background-color: black;
+}
+h1 {
+  color: yellow;
+  font-family: PFTempestaSeven, monospace;
+}
+
+h2 {
+  color: yellow;
+  font-family: PFTempestaSeven, monospace;
+}
+p {
+  color: white;
+  font-family: PFTempestaSeven, monospace;
+}
+
+a:link {
+  color: white;
+  font-weight: bold;
+}
+
+a:visited {
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+a:active {
+  color: yellow;
+  font-weight: bold;
+}
+
+.center {
+  margin-top: 64px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640;
+}
+
+.centerservices {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.centeriframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; /* 646 */
+  height: 190;
+}
+
+.footerfontstyle {
+ font-family: PFTempestaSeven, monospace;
+ font-size: 14px;
+ font-style: normal;
+ font-weight: bold;
+ color: white;
+ text-align: center;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.allButFooter {
+    min-height: calc(100vh - 40px);
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  position:fixed;
+  width: 100%;
+  top:0;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+}
+
+.topnav a {
+  font-family: PFTempestaSeven, monospace;
+  float: left;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: yellow;
+}
+
+.topnav a.active {
+  background-color: #333;
+  font-weight: bold;
+}
+
+/* For Mobile */
+@media only screen and (min-width:1280px) {
+    .container {
+	  margin-top: 30px;
+	  display: flex;
+	  flex-direction: column;
+	  min-height: 100vh;
+	  margin-left: 20%;
+	  margin-right: 20%;
+	}
+	.center {
+	  margin-top: 64px;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 640;
+	}
+}
