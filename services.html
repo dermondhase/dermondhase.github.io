@@ -1,53 +1,229 @@
-<html>
-  
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>Der Mondhase: Game development and related media</title>
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
-  <meta name="twitter:card" content="summary">
-  <meta property="og:title" content="Der Mondhase">
-  <meta property="og:image" content="https://dermondhase.github.io/assets/images/logoBW.png" />
-  <meta property="og:description" content="Der Mondhase: Game development and related media offers solutions and contract work for fighting game developers in need.">
-  <meta property="og:url" content="https://dermondhase.github.io/services" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open graph -->
+    <meta name="twitter:card" content="summary">
+    <meta property="og:title" content="Der Mondhase">
+    <meta property="og:image" content="https://dermondhase.github.io/assets/images/logoBW.png" />
+    <meta property="og:description"
+        content="Der Mondhase: Game development and related media offers solutions and contract work for fighting game developers in need.">
+    <meta property="og:url" content="https://dermondhase.github.io" />
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/269aa06f04.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Der Mondhase - Services</title>
 </head>
-  
+
 <body>
-<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <header>
+        <div class="container-fluid">
+            <nav id="navbar" class="d-none d-md-block px-4 py-4 w-100">
+                <div class="row align-items-center">
+                    <!-- Left side -->
+                    <div class="col-2">
+                        <a href="./"><img src="img/logoTransparentBig.png" height="90px" alt="Logo Transparent"></a>
+                    </div>
+                    <!-- Center -->
+                    <div class="col-8 fs-20 header-link text-center text-uppercase">
+                        <a class="mx-2 text-whitesmoke" href="./">Home</a>
+                        <a class="active mx-2 text-whitesmoke" href="services">Services</a>
+                        <a class="mx-2 text-whitesmoke" href="projects">Projects</a>
+                        <a class="mx-2 text-whitesmoke" href="about">About</a>
+                        <a class="mx-2 text-whitesmoke" href="contacts">Contacts</a>
+                    </div>
+                    <!-- Rigth side -->
+                    <div class="col-2 fs-20 header-link text-right">
+                        <a href="https://youtube.com/c/AndreaDemetrio_Jens" target="_blank"><i class="fa-brands fa-youtube pointer text-orange"></i></a>
+                        <a href="https://twitter.com/AndreaDProjects" target="_blank"><i class="fa-brands fa-twitter px-3 pointer text-orange"></i></a>
+                        <a href="https://store.steampowered.com/search/?developer=Andrea%20Demetrio" target="_blank"><i class="fa-brands fa-steam pointer text-orange"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--Navbar Mobile-->
+        <nav id="navabar-mobile" class="d-md-none navbar navbar-dark bg-dark w-100">
 
-<div class="topnav">
-  <a href="./">Home</a>
-  <a class="active" href="services">Services</a>
-  <a href="games">Projects</a>
-  <a href="contacts">Contacts</a>
-</div>
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">
+                <a href="./"><img src="img/logoTransparentBig.png" height="90px" alt="Logo Transparent"></a>
+            </a>
 
-<img src="assets/images/logoTransparent.png" alt="Mondhase Logo" class="center">
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                        class="fas fa-bars fa-1x"></i></span></button>
 
-<div class="container">
-<header></header>
-<main>
-<h1>Services</h1>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent1">
 
-<h2 id="story">Story writing and dialogue editing</h2>
-<p>Fighting game stories are known to be mostly excuse plots, with some relevant exceptions. 
-It might be hard to build a coherent narrative that showcases all characters without feeling forced... and this is where I come into play. 
-World-building? Dialogue writing? Story pacing? You can contact me for a first consultancy free of charge. 
-All the relevant details in the practical infographic below! </p>
-<img src="assets/images/serviceStoryWriting.png" alt="story-writing" class="center">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto text-uppercase">
+                    <li class="nav-item pt-3 pb-1">
+                        <a class="mx-2 text-whitesmoke" href="./">Home</a>
+                    </li>
+                    <li class="nav-item active pb-1">
+                        <a class="mx-2 text-whitesmoke" href="services">Services</a>
+                    </li>
+                    <li class="nav-item pb-1">
+                        <a class="mx-2 text-whitesmoke" href="projects">Projects</a>
+                    </li>
+                    <li class="nav-item pb-1">
+                        <a class="mx-2 text-whitesmoke" href="about">About</a>
+                    </li>
+                    <li class="nav-item pb-1">
+                        <a class="mx-2 text-whitesmoke" href="contacts">Contacts</a>
+                    </li>
+                </ul>
+                <div class="fs-20 pt-2">
+                    <a href="https://youtube.com/c/AndreaDemetrio_Jens" target="_blank"><i class="fa-brands fa-youtube pointer text-orange"></i></a>
+                    <a href="https://twitter.com/AndreaDProjects" target="_blank"><i class="fa-brands fa-twitter px-3 pointer text-orange"></i></a>
+                    <a href="https://store.steampowered.com/search/?developer=Andrea%20Demetrio" target="_blank"><i class="fa-brands fa-steam pointer text-orange"></i></a>
+                </div>
+                <!-- Links -->
 
-<h2 id="moveset">Moveset design</h2>
-<p>
-Sometimes, deciding which move might fit a character isn't an easy process. How to make each character unique? 
-How to underline their strengths and their weaknesses through their movesets? How to showcase their personalities just by means of their motion?
-This is where I offer you my expertise! Consultancy rates depend on the level of detail required.
-</p>
-<img src="assets/images/serviceMovesetDesign.png" alt="story-writing" class="center">
+            </div>
+            <!-- Collapsible content -->
 
-</main>
-<footer>
-<p class="footerfontstyle">Andrea Demetrio — der Mondhase: Game development and related media</p>
-<p class="footerfontstyle">Copyright&copy; 2021 — Andrea Demetrio</p>
-</footer>
-</div>
+        </nav>
+        <!--/.Navbar-->
+    </header>
 
+    <main id="services">
+        <!-- banner-->
+        <div id="banner-nav" class="d-sm-flex justify-content-center align-items-center mb-4 w-100">
+            <h2 class="d-none d-md-block fs-50 text-uppercase text-sh-dark">Services</h2>
+        </div>
+        <div class="container pb-4">
+            <h1 class="pb-4 text-orange">Services</h1>
+            <!-- first service -->
+            <h2 class="text-white">Story writing and dialogue editing</h2>
+            <p>Fighting game stories are known to be mostly excuse plots, with some relevant exceptions.
+                It might be hard to build a coherent narrative that showcases all characters without feeling
+                forced... and this is where I come into play.
+                World-building? Dialogue writing? Story pacing? You can contact me for a first consultancy free
+                of charge.
+                All the relevant details in the practical infographic below! </p>
+            <div class="row align-items-center px-md-5">
+                <div class="col-12 col-md-6">
+                    <h3 class="text-orange">Story writing</h3>
+                    <ul class="pl-15">
+                        <li>1 call with the client to define the game's setting (I'll sign any required NDA)</li>
+                        <li>once I have received the game's "bible" (a.k.a. a design document) I will prodcue 1 free story chapter</li>
+                        <li>if the quality/tone is okay, we will proceed by discussing the deadlines/payment</li>
+                        <li>if the quotation is not accepted, the free chapter can't be used in the finished product</li>
+                        <li>I will transfer all theIP rights for all entities created for the project to the customer</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-6 dice"><img class="mx-auto d-block p-1" src="img/icon1.png" alt="Icon 1"></div>
+                        <div class="col-6 dice"><img class="mx-auto d-block p-1" src="img/icon2.png" alt="Icon 2"></div>
+                        <div class="col-6 dice"><img class="mx-auto d-block p-1" src="img/icon3.png" alt="Icon 3"></div>
+                        <div class="col-6 dice"><img class="mx-auto d-block p-1" src="img/icon4.png" alt="Icon 4"></div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-orange">
+            <!-- second service -->
+            <h2 class="text-white">Moveset design</h2>
+            <p>
+                Sometimes, deciding which move might fit a character isn't an easy process. How to make each character
+                unique?
+                How to underline their strengths and their weaknesses through their movesets? How to showcase their
+                personalities just by means of their motion?
+                This is where I offer you my expertise! Consultancy rates depend on the level of detail required.
+            </p>
+            <div class="row align-items-center px-md-5">
+                <div class="col-12 col-md-6">
+                    <h3 class="text-orange">Moveset design</h3>
+                    <ul class="pl-15">
+                        <li>1 call with the client to define the game's tone (realistic, rule-of-cool, shonen anime)</li>
+                        <li>1 brainstorming session with the client about the character + all design notes</li>
+                        <li>after this, I will produce 3 normal moves and 2 special moves for free + sketches or 3D animations to help visualize them</li>
+                        <li>if the client is happy with them, the next step is discussing deadlines/payment</li>
+                        <li>the free moves provided cannot be used if the offer is declined</li>
+                        <li>different service tiers: <br> rough thematic design&nbsp;&nbsp;&nbsp;&nbsp;frame data <br> design of full, specific moves&nbsp;&nbsp;&nbsp;&nbsp;additional properties</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-6 dice"><img class="mx-auto d-block p-2" src="img/icon5.png" alt="Icon 1"></div>
+                        <div class="col-6 dice"><img class="mx-auto d-block p-2" src="img/icon6.png" alt="Icon 2"></div>
+                        <div class="col-6 dice"><img class="mx-auto d-block p-2" src="img/icon7.png" alt="Icon 3"></div>
+                        <div class="col-6 dice"><img class="mx-auto d-block p-2" src="img/icon4.png" alt="Icon 4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--footer-->
+    <footer class="bg-dark">
+        <div class="container pt-5 pb-4">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="./"><img src="img/logoTransparentBig.png" height="90px" alt="Logo Transparent"></a>
+                    <p class="m-0 pt-3"><small>Andrea Demetrio — der Mondhase:</small></p>
+                    <p><small>Game development and related media</small></p>
+                </div>
+                <hr class="d-sm-none w-100 hr-lightgray">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h6 class="pb-2 text-white">Storefronts</h6>
+                    <ul>
+                        <li><a class="text-whitesmoke"  href="https://store.steampowered.com/search/?developer=Andrea%20Demetrio" target="_blank">Steam</a></li>
+                        <li><a class="text-whitesmoke"  href="https://gamejolt.com/@derMondhase" target="_blank">GameJolt (business & game jams)</a></li>
+                        <li><a class="text-whitesmoke"  href="https://gamejolt.com/@AndreaJens" target="_blank">GameJolt (personal)</a></li>
+                        <li><a class="text-whitesmoke"  href="https://andreajens.itch.io/" target="_blank">itch.io (business)</a></li>
+                        <li><a class="text-whitesmoke"  href="https://andreajens.itch.io/" target="_blank">itch.io (personal)</a></li>
+                    </ul>
+                </div>
+                <hr class="d-lg-none w-100 hr-lightgray">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h6 class="pb-2 text-white">Links</h6>
+                    <ul>
+                        <li><a class="text-whitesmoke" href="./">Home</a></li>
+                        <li><a class="text-whitesmoke" href="services">Services</a></li>
+                        <li><a class="text-whitesmoke" href="projects">Projects</a></li>
+                        <li><a class="text-whitesmoke" href="about">About</a></li>
+                        <li><a class="text-whitesmoke" href="contacts">Contacts</a></li>
+                    </ul>
+                </div>
+                <hr class="d-sm-none w-100 hr-lightgray">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h6 class="pb-2 text-white">Follow me</h6>
+                    <div>
+                        <a href="https://youtube.com/c/AndreaDemetrio_Jens" target="_blank"><i class="fa-brands fa-youtube text-whitesmoke pointer"></i></a>
+                        <a href="https://twitter.com/AndreaDProjects" target="_blank"><i class="fa-brands fa-twitter px-3 text-whitesmoke pointer"></i></a>
+                        <a href="https://store.steampowered.com/search/?developer=Andrea%20Demetrio" target="_blank"><i class="fa-brands fa-steam  text-whitesmoke pointer"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- credits -->
+        <div id="copyright" class="text-center bg-body py-2">
+            <p class="m-0"><small>Copyright&copy; 2022 - Made with <span class="text-orange">&hearts;</span> by Niccolò
+                    Delfino.</small></p>
+        </div>
+    </footer>
+
+    <!-- script javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
