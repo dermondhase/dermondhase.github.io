@@ -1,0 +1,354 @@
+body{
+    background-color: #1B1F28;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+li{
+list-style: none;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+/* CUSTOM FRAMEWORK */
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-30{
+    font-size: 30px;
+}
+
+.fs-50{
+    font-size: 50px;
+}
+
+.text-sh-dark{
+    text-shadow: 2px 2px #12151B;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-black {
+    color: black !important;
+    }
+
+.text-whitesmoke {
+    color: whitesmoke !important;
+    }
+
+.text-orange{
+    color: #ff9c00 !important;
+}
+
+.btn-orange{
+    background-color: #ff9c00 !important;
+    border: 2px solid white;
+}
+
+.bg-orange{
+    background-color: #ff9c00 !important;
+}
+
+.bg-body{
+    background-color: #1B1F28 !important;
+}
+
+.bg-dark{
+    background-color: #12151B !important;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
+.z-index-2{
+    z-index: 2;
+}
+
+.hr-lightgray{
+    border-top: 1px solid lightgray !important;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+
+
+/* PROJECT */
+.active {
+    border-bottom: 1px solid #ff9c00;
+    padding-bottom: 5px;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+/* nav */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #12151B;
+}
+
+#navabar-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+nav i:hover {
+    color: whitesmoke !important;
+    transition: 0.5s;
+}
+
+nav a:hover,
+main #boxes a:hover {
+    text-decoration: none;
+}
+
+nav a:hover,
+footer a:hover {
+    color: #ff9c00 !important;
+    transition: 0.5s;
+}
+
+/* jumbotron */
+#jumbotron {
+    height: 800px;
+    margin-top: 138px;
+    background-image: url('../img/schwarzerblitz.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#jumbotron h1 {
+    font-size: 72px;
+}
+
+.jumbotron-veil {
+    background-color: black;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+}
+
+.btn-orange:hover {
+    background-color: #b96d00 !important;
+    border: 2px solid #ff9c00;
+    transition: 0.5s;
+}
+
+/* main */
+
+/*boxes*/
+#boxes i {
+    font-size: 50px;
+    border: 3px solid #ff9c00;
+}
+
+#boxes .col-12:hover {
+    background-color: #12151B;
+    transition: 1.25s;
+    box-shadow: 0px 5px 5px 0px rgb(0 0 0 / 50%);
+}
+
+#boxes .col-12:hover i{
+    color: #E68700 !important;
+    border-color: #E68700;
+    transition: 1.25s;
+	animation: float 5s ease-in-out infinite;
+}
+
+/*motionsickness banne*/
+#motion-banner {
+    height: 300px;
+    background-image: url('../img/motionsickness.png');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+#footer-banner {
+    height: 300px;
+    background-image: url('../img/collage.png');
+    background-size: contain;
+    position: relative;
+}
+
+.motion-banner-veil {
+    background-color: black;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+}
+
+/*footer*/
+footer i:hover {
+    color: #ff9c00 !important;
+    transition: 1s;
+}
+/*copyright*/
+
+/*GAMES*/
+#games,
+#about,
+#contacts,
+#services {
+    padding-top: 138px;
+}
+
+/*ABOUT*/
+
+/*CONTACTS*/
+
+/*SERVICES*/
+main#services ul li{
+    list-style: circle;
+}
+
+.dice img{
+    max-height: 155px;
+}
+
+#services #banner-nav{
+    height: 200px;
+    background: url('../img/doll_concept_clean.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#games #banner-nav{
+    height: 200px;
+    background: url('../img/johnson_studio_cleanMonty.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+#about #banner-nav{
+    height: 200px;
+    background: url('../img/tiger_sambiong_clean_concept.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+
+#contacts #banner-nav{
+    height: 200px;
+    background: url('../img/kiyoko_nanabi_concept_clean.png'), linear-gradient(90deg, rgba(230,135,0,1) 0%, rgba(255,156,0,1) 30%, rgba(18,21,27,0.7) 100%);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#game-banner-schwarz{
+    height: 200px;
+    background: url('../img/schwarzerblitz.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+#game-banner-schwarz:hover{
+    filter: grayscale(0%);
+}
+
+#game-banner-motion{
+    height: 200px;
+    background: url('../img/screenshot.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+
+#game-banner-motion:hover{
+    filter: grayscale(0%);
+}
+
+#game-banner-motion img{
+max-height: 200px;
+}
+
+/*MEDIAQUERY*/
+@media screen and (max-width: 768px) {
+    #jumbotron {
+        margin-top: 116px;
+        height: 600px;
+    }
+    
+    #games,
+    #about,
+    #contacts,
+    #services {
+        padding-top: 116px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #jumbotron h1 {
+        font-size: 60px;
+    }
+    #jumbotron h2 {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    #jumbotron h1 {
+        font-size: 50px;
+    }
+    #jumbotron h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    header nav .header-link a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #game-banner #game-banner-motion img{
+        max-width: 75%;
+    }
+}
