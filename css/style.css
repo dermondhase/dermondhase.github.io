@@ -310,7 +310,7 @@ max-height: 200px;
 /*MEDIAQUERY*/
 @media screen and (max-width: 768px) {
     #jumbotron {
-        margin-top: 116px;
+        margin-top: 106px;
         height: 600px;
     }
     
@@ -318,7 +318,7 @@ max-height: 200px;
     #about,
     #contacts,
     #services {
-        padding-top: 116px;
+        padding-top: 106px;
     }
 }
 
